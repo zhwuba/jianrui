@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wb.launcher3.AppHubIcon xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.wb.launcher3.BubbleTextView
+        android:id="@+id/app_hub_icon_title"
+        style="@style/WorkspaceIcon.Portrait"
+        android:background="@drawable/focusable_view_bg"
+        android:focusable="true" />
+
+</com.wb.launcher3.AppHubIcon>

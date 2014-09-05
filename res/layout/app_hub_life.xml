@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wb.launcher3.AppHub xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/app_hub_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/apphub_game_title_height"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="@string/app_hub_life_title"
+        android:textSize="16sp"
+        android:textColor="@android:color/white" />
+
+    <com.wb.launcher3.CellLayout
+        android:id="@+id/folder_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#ff333333"
+        android:hapticFeedbackEnabled="false"
+        launcher:maxGap="@dimen/workspace_max_gap" />
+
+    <ImageView
+        android:id="@+id/move_out_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/apphub_move_out_area_top"
+        android:background="@drawable/move_out_area_bg_light"
+        android:visibility="gone" />
+
+    <SlidingDrawer
+        android:id="@+id/slidingdrawer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/apphub_slidingdrawer_margin_top"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/apphub_handle_button_height"
+            android:background="@drawable/app_hub_life_handle" />
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_hub_life_featured_area"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/titleArea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/apphub_title_area_top" >
+
+                <TextView
+                    android:id="@+id/featured_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="5.0dip"
+                    android:gravity="center"
+                    android:text="@string/hot_featured"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:id="@+id/functionArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/featured_refresh_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:src="@drawable/app_hub_life_featured_refresh" />
+
+                    <ProgressBar
+                        android:id="@+id/loading_progress"
+                        style="?android:attr/progressBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:max="10000"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/show_more_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/app_hub_life_featured_more"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <GridView
+                android:id="@+id/recommend_apps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/titleArea"
+                android:layout_marginTop="@dimen/apphub_recommend_apps_margin_top"
+                android:numColumns="4"
+                android:stretchMode="columnWidth" />
+        </RelativeLayout>
+    </SlidingDrawer>
+
+</com.wb.launcher3.AppHub>

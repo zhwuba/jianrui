@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dip" >
+
+    <com.wb.launcher3.BubbleTextView
+        android:id="@+id/app_icon_title"
+        style="@style/WorkspaceIcon.AppHub"
+        android:background="@drawable/focusable_view_bg"
+         />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="workspace_transition_effect_entries">
+        <item>Rand</item>
+        <item>Classic</item>
+        <item>Wave</item>
+        <item>Fade</item>
+        <item>Flip</item>
+        <item>Windmill</item>
+        <item>Cube</item>
+        <item>Photowall</item>
+        <item>Push</item>
+        <item>Up and down</item>
+    </string-array>
+    <string-array name="apps_transition_effect_entries">
+        <item>Rand</item>
+        <item>Classic</item>
+        <item>Fade</item>
+        <item>Flip</item>
+        <item>Windmill</item>
+        <item>Cube</item>
+        <item>Photowall</item>
+        <item>Blind</item>
+        <item>Roll</item>
+        <item>Push</item>
+        <item>Up and down</item>
+    </string-array>
+
+<!-- zhangwuba liveweather 2014-8-14 -->
+   <string-array name="live_weather_entries">
+        <item>None</item>
+<!--
+        <item>RealWeather</item>
+-->
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Dandelion</item>
+        <item>Fog</item>
+        <item>Rain</item>
+        <item>Thundershower</item>
+        <item>Snow</item>
+    </string-array>
+
+</resources>

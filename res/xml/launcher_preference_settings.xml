@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/launcher_settings_transition_effect_category" >
+        <Preference
+            android:key="workspace_transition_effect"
+            android:title="@string/launcher_settings_workspace_transition_effect" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.wb.launcher3.WorkspaceTransitionEffectChooser"
+                android:targetPackage="com.wb.launcher3" />
+        </Preference>
+        <Preference
+            android:key="apps_transition_effect"
+            android:title="@string/launcher_settings_apps_transition_effect" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.wb.launcher3.AppsTransitionEffectChooser"
+                android:targetPackage="com.wb.launcher3" />
+        </Preference>
+    </PreferenceCategory>
+    
+     <!-- zhangwuba 2014-8-14 liveweather -->
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/live_weather_title" >
+
+        <Preference
+            android:key="workspace_liveweather_key"
+            android:title="@string/live_weather_title" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.wb.launcher3.LiveweatherPreferenceActivity"
+                android:targetPackage="com.wb.launcher3" />
+        </Preference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/launcher_backup_and_restore_category" >
+        <Preference
+            android:key="key_backup_data"
+            android:title="@string/launcher_backup" />
+        <Preference
+            android:key="key_restore_data"
+            android:summary="@string/launcher_restore_summary"
+            android:title="@string/launcher_restore" />
+        <Preference
+            android:key="key_reset_data"
+            android:summary="@string/lacucher_reset_summary"
+            android:title="@string/lacucher_reset" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="key_swipe_category"
+        android:persistent="false"
+        android:title="@string/pref_title_swipe_actions" >
+        <CheckBoxPreference
+            android:key="key_swipe_up_actions"
+            android:summary="@string/pref_summary_swipeup_actions"
+            android:title="@string/pref_title_swipeup_actions" />
+        <CheckBoxPreference
+            android:key="key_swipe_down_actions"
+            android:summary="@string/pref_summary_swipedown_actions"
+            android:title="@string/pref_title_swipedown_actions" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="key_debug_category"
+        android:persistent="false"
+        android:title="@string/tyd_debug_cateory" >
+        <CheckBoxPreference
+            android:key="key_debug_text_style"
+            android:title="@string/debug_text_style_title" />
+    </PreferenceCategory>
+
+   <PreferenceCategory
+        android:key="key_about"
+        android:persistent="false"
+        android:title="@string/about_dev" >
+        <Preference
+            android:key="about_launcer"
+            android:title="@string/about_launcerinfo" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.wb.wbad.About"
+                android:targetPackage="com.wb.launcher3" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- folder -->
+    <integer name="folder_max_count_x">4</integer>
+    <integer name="folder_max_count_y">3</integer>
+    <integer name="folder_max_num_items">12</integer>
+
+    <!-- apphub -->
+    <integer name="apphub_max_count_x">4</integer>
+    <integer name="apphub_max_count_y">3</integer>
+    <integer name="apphub_max_num_items">12</integer>
+    <integer name="config_apphubAnimDuration">250</integer>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <dimen name="app_icon_size">64dp</dimen>
+
+<!-- AppsCustomize -->
+    <dimen name="apps_customize_tab_bar_height">60dp</dimen>
+    <dimen name="apps_customize_tab_bar_margin_top">8dp</dimen>
+    <dimen name="app_widget_preview_label_margin_top">8dp</dimen>
+    <dimen name="app_widget_preview_label_margin_left">@dimen/app_widget_preview_padding_left</dimen>
+    <dimen name="app_widget_preview_label_margin_right">@dimen/app_widget_preview_padding_right</dimen>
+    <!-- added for port dialog -->
+    <dimen name="uninstall_apps_image_height">83.0dp</dimen>
+    <dimen name="uninstall_apps_view_padding_left">10.0dp</dimen>
+    <dimen name="uninstall_apps_msg_padding_top">1.0dp</dimen>
+    <dimen name="uninstall_apps_button_width">150.0dp</dimen>
+    <dimen name="uninstall_apps_button_height">71.0dp</dimen>
+    <dimen name="uninstall_apps_button_padding_left">160.0dp</dimen>
+    <dimen name="uninstall_text_max_size">22.0sp</dimen>
+    <dimen name="uninstall_text_min_size">16.0sp</dimen>
+    <dimen name="uninstall_shadow_height">12.0dp</dimen>
+    
+    <dimen name="uninstall_apps_dialog_height">215.0dp</dimen>
+    <dimen name="uninstall_apps_hint_height">103.0dp</dimen>
+    <dimen name="uninstall_apps_image_padding_top">20.0dp</dimen>
+    <dimen name="uninstall_apps_text_padding_left">24.0dp</dimen>
+    <dimen name="uninstall_apps_text_padding_top">23.0dp</dimen>
+    <dimen name="uninstall_apps_button_padding_top">15.0dp</dimen>
+
+  <!-- zhangwuba add 2014-5-7 -->
+  <dimen name="delete_zone_pading_top">80dp</dimen>
+  <dimen name="delete_zone_dialog_padingtop">160dp</dimen>
+ <!-- -->
+
+  <dimen name="overview_mode_page_offset">180dp</dimen>
+  <dimen name="overview_panel_bottom_padding">150dp</dimen>
+
+   <dimen name="overview_panel_textwidth">80dp</dimen>
+    <dimen name="overview_panel_textheight">90dp</dimen>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For transition effect sync values -->
+    <string-array name="workspace_transition_effect_entries">
+    	<item>隨機</item>
+    	<item>經典</item>
+    	<item>波浪</item>
+    	<item>淡入淡出</item>
+    	<item>翻轉</item>
+    	<item>風車</item>
+    	<item>方塊</item>
+    	<item>照片牆</item>
+    	<item>推壓</item>
+    	<item>彈跳</item>
+    </string-array>
+    <string-array name="apps_transition_effect_entries">
+    	<item>隨機</item>
+    	<item>經典</item>
+    	<item>淡入淡出</item>
+    	<item>翻轉</item>
+    	<item>風車</item>
+    	<item>方塊</item>
+    	<item>照片牆</item>
+    	<item>百葉窗</item>
+    	<item>滾輪</item>
+    	<item>推壓</item>
+    	<item>彈跳</item>
+    </string-array>
+
+   <!-- zhangwuba liveweather 2014-8-14 -->
+   <string-array name="live_weather_entries">
+        <item>無天氣效果</item>
+<!--
+        <item>關聯天氣</item>
+-->
+        <item>晴</item>
+        <item>多雲</item>
+        <item>蒲公英</item>
+        <item>霧</item>
+        <item>雨</item>
+        <item>雷陣雨</item>
+        <item>雪</item>
+    </string-array>
+
+</resources>

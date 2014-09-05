@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@+id/uninstall_apps_dlg" android:background="@drawable/uninstall_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/uninstall_apps_dialog_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/uninstall_infos" android:layout_width="wrap_content" android:layout_height="@dimen/uninstall_apps_hint_height" android:layout_centerHorizontal="true">
+        <LinearLayout android:id="@+id/uninstall_image_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@+id/uninstall_image" android:layout_width="@dimen/uninstall_apps_image_height" android:layout_height="@dimen/uninstall_apps_image_height" android:layout_marginLeft="@dimen/uninstall_apps_view_padding_left" android:layout_marginTop="@dimen/uninstall_apps_image_padding_top" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/uninstall_apps_text_padding_left" android:layout_marginTop="@dimen/uninstall_apps_text_padding_top">
+            <TextView android:textSize="@dimen/uninstall_text_max_size" android:textColor="#ffffffff" android:id="@+id/uninstall_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#bb000000" android:shadowRadius="2.75" />
+            <TextView android:textSize="@dimen/uninstall_text_min_size" android:textColor="#ff888888" android:ellipsize="marquee" android:id="@+id/uninstall_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_message" android:singleLine="true" android:shadowColor="#bb000000" android:shadowRadius="2.75" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/uninstall_buttons" android:layout_marginTop="@dimen/uninstall_apps_button_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/uninstall_infos">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/button_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+            <Button 
+                android:textSize="@dimen/uninstall_text_max_size" 
+                android:textColor="#bbffffff"
+                android:id="@+id/uninstall_ok"
+                android:layout_width="@dimen/uninstall_apps_button_width" 
+                android:layout_height="wrap_content" 
+                android:text="@string/uninstall_button_ok" 
+                android:gravity="center" 
+                android:layout_marginLeft="@dimen/uninstall_apps_view_padding_left"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/uninstall_button_bg" />
+            <Button 
+                android:textSize="@dimen/uninstall_text_max_size" 
+                android:textColor="#bbffffff" 
+                android:id="@+id/uninstall_cancel"  
+                android:layout_width="@dimen/uninstall_apps_button_width" 
+                android:layout_height="wrap_content"  
+                android:text="@string/uninstall_button_cancel" 
+                android:gravity="center" 
+                android:layout_marginRight="@dimen/uninstall_apps_view_padding_left"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/uninstall_button_bg"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

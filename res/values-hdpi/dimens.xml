@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+<!-- Workspace -->
+    <dimen name="workspace_cell_height_port">86dp</dimen>    
+    
+    <!-- tyd Jack 20130819 for, custom app icon size -->
+    <dimen name="app_icon_size">90px</dimen>
+    <!-- tyd -->
+    <!-- Add by tyd liyu 2013.1.17 -->
+    <dimen name="thumbnail_page_padding_left">8.0dip</dimen>
+    <dimen name="thumbnail_page_padding_right">8.0dip</dimen>
+    <dimen name="thumbnail_page_padding_top">25.0dip</dimen>
+    <dimen name="thumbnail_page_horizontalSpacing">7.0dip</dimen>
+    <dimen name="thumbnail_page_verticalSpacing">20.0dip</dimen>
+    <dimen name="thumbnail_item_height">140.0dip</dimen>
+    <dimen name="zzzz_remove_btn_size">40.0dip</dimen>
+    <!-- tyd -->
+    <!-- // Added by TYD Theobald_Wu on 20130724 [begin] for adapter cycle sliding distance. -->
+    <dimen name="workspace_cycle_adapter_distance">0dip</dimen>
+    <dimen name="app_customize_pane_indicator_margin_bottom">10dip</dimen>
+    <!-- // Added by TYD Theobald_Wu on 20130724 [end] -->
+
+    <!-- Added by tyd Greg 2013-09-16,for iphone style folder -->
+    <!--workspace -->
+    <dimen name="app_icon_padding_bottom">0dp</dimen>
+
+    <!-- folder -->
+    <dimen name="folder_cell_height">102dp</dimen>
+    <dimen name="folder_cell_width">83dp</dimen>
+    <dimen name="folder_padding_left">15dp</dimen>
+    <dimen name="folder_padding_top">70dp</dimen>
+    <dimen name="folder_icon_padding_top">8dp</dimen>
+    <dimen name="folder_preview_size">90px</dimen>
+    
+    <dimen name="folder_min_padding_top">50dip</dimen>
+    <dimen name="folder_min_padding_bottom">90dip</dimen>
+    
+    <dimen name="folder_draw_offset_y">0dip</dimen>
+    <dimen name="folder_icon_draw_offset_y">8dip</dimen>
+
+    <!-- the height of statusbar -->
+    <dimen name="statusbar_height">25dip</dimen>
+    <!-- for workspace icon shadow -->    
+    <!-- tyd -->
+    <!-- added by xuchao for folder 20140529 -->
+    <dimen name="folder_cell_width_port">140dp</dimen>
+    <dimen name="folder_cell_width_land">160dp</dimen>
+    <!--  -->
+</resources>

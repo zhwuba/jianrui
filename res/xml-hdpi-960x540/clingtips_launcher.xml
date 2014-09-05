@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clingtips>
+
+    <action image="clingtips_launcher_manager" >
+        <tip
+            text="主界面任意界面向上滑, 进入到桌面管理模式"
+            x="50"
+            y="870" />
+    </action>
+	<action image="clingtips_launcher_capture" >
+        <tip
+            text="同时按下电源键和音量下键即可截取当前屏幕图像"
+            x="50"
+            y="50" />
+    </action>
+</clingtips>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+<!-- QSB -->
+    <dimen name="toolbar_button_vertical_padding">8dip</dimen>
+    <dimen name="toolbar_button_horizontal_padding">0dip</dimen>
+
+<!-- Workspace -->
+    <!-- We really want the page spacing to be the max of either the button bar
+     height or the qsb bar height -->
+    <dimen name="workspace_page_spacing">-1dp</dimen>
+
+<!-- AppsCustomize -->
+    <dimen name="apps_customize_tab_bar_height">42dp</dimen>
+    <integer name="apps_customize_widget_cell_count_x">3</integer>
+    <integer name="apps_customize_widget_cell_count_y">2</integer>
+    <integer name="apps_customize_cling_focused_x">2</integer>
+    <integer name="apps_customize_cling_focused_y">1</integer>
+    
+<!-- for uninstall icon -->
+    <dimen name="uninstall_app_icon_width">35.0dip</dimen>
+    <dimen name="uninstall_app_icon_height">35.0dip</dimen>
+    <dimen name="uninstall_app_leftpadding">11.0dip</dimen>
+    <dimen name="uninstall_app_toppadding">0.0dip</dimen>
+
+<!-- the values to draw the preview of folder for koobee style launcher -->
+    <dimen name="folder_preview_padding">8dp</dimen>
+    <dimen name="folder_preview_subicon_gap">1.0dip</dimen>
+    <dimen name="folder_preview_offsetX">0.0dip</dimen>
+    <dimen name="folder_preview_offsetY">3.0dip</dimen> 
+<!-- added for uninstall app -->
+    <dimen name="uninstall_apps_dialog_height">215.0dp</dimen>
+    <dimen name="uninstall_apps_hint_height">103.0dp</dimen>
+    <dimen name="uninstall_apps_image_padding_top">20.0dp</dimen>
+    <dimen name="uninstall_apps_text_padding_left">24.0dp</dimen>
+    <dimen name="uninstall_apps_text_padding_top">23.0dp</dimen>
+    <dimen name="uninstall_apps_button_padding_top">15.0dp</dimen>
+
+<!-- added by xuchao for tyd00522236 20140522 -->
+    <dimen name="hotseat_unread_margin_top">0dp</dimen>
+    <dimen name="hotseat_unread_margin_right">32dp</dimen>
+<!-- -->
+
+</resources>
